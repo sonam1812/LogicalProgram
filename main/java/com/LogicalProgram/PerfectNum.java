@@ -4,8 +4,8 @@ public class PerfectNum {
 	public static void main(String[] args) {
 
 	  System.out.print("Enter the number: ");
-	  Scanner numberScan = new Scanner(System.in);
-      int number = numberScan.nextInt();
+	  Scanner sc = new Scanner(System.in);
+      int number = sc.nextInt();
       int sum = 0;
       int i = 1;
 	  while (i <= number / 2) {
